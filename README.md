@@ -4,41 +4,63 @@
 To develop a animal feeding game-Phase-2 using unity.
 
 ## Algorithm:
+
+
+
 ## Step 1: 
 
 In the Hierarchy, create an Empty object called “SpawnManager”
+
+
 
 ## Step 2: 
 
 Create a new script called “SpawnManager”, drag the script and attach it to the Spawn Manager in the hierarchy , and open it
 
+
+
 ## Step 3: 
 
 Declare new public GameObject[ ] animalPrefabs;
+
+
 
 ## Step 4: 
 
 In the inspector assign the size as 3 , for each element drag the animals from prefabs folder into the array
 
+
+
 ## Step 5: 
 
 Double-click on one of the animal prefabs, then Add Component > Box Collider
+
+
 
 ## Step 6: 
 
 Check the “Is Trigger” checkbox
 
+
+
 ## Step 7: 
 
 Add a RigidBody component to the (banana)projectile and uncheck “use gravity”.
+
+
 
 ## Step 8: 
 
 Create a new DetectCollisions.cs script, then drag the scripts and add it to each animal prefab and banana, then open it and check it.
 
+
+
 ## Step 9: 
 
 For all the animal prefabs and food in th inspector (below the layer ) drop down the override option and choose apply all.
+
+
+
 
 ## Program:
 ```
@@ -113,7 +135,12 @@ public class DetectCollision : MonoBehaviour
 
 ## Output:
 
+
+
 <img width="960" alt="image" src="https://github.com/JayanthYadav123/Ex4.2-Animal-Feeding-Phase-2/assets/94836154/678e38a5-79c9-4b41-bdfe-9b0568f9934d">
+
+
+
 
 
 
