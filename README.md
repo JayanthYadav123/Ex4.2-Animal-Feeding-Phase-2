@@ -106,9 +106,12 @@ public class DetectCollision : MonoBehaviour
     }
 }
 ```
+
+
 ## Output:
 
 <img width="960" alt="image" src="https://github.com/JayanthYadav123/Ex4.2-Animal-Feeding-Phase-2/assets/94836154/678e38a5-79c9-4b41-bdfe-9b0568f9934d">
+
 
 
 ## Result:
